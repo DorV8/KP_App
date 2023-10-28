@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KP_App.HomeworkPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="LogoImage"/>
+                <Label Text="Названиt приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <Label Text="Здесь будут появляться все добавленные ранее задания"/>
+            <Button Text="Добавить домашнее задание" Clicked="ButtonAddHomework_Clicked"/>
+            <Button Text="Просмотр учебных материалов" Clicked="ButtonMaterials_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

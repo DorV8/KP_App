@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KP_App.StudentPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Домашнее задание" >
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Logo1"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Предмет"/>
+                <Label FontSize="25" Text="дд:мм:гг чч:мм"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Описание: Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce vulpulate purus at est congue placerat"/>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="red"/>
+                    <Frame BackgroundColor="green"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Предмет" />
+                <Label FontSize="25" Text="дд:мм:гг чч:мм"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Описание: Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce vulpulate purus at est congue placerat"/>
+                <StackLayout Orientation="Horizontal">
+                    <Frame BackgroundColor="red"/>
+                    <Frame BackgroundColor="green"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Расписание" >
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Logo2"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Учебные материалы" >
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Logo3"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label Text="Предмет" FontSize="25"/>
+                <Label Text="Тип: учебник" FontSize="25"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Описание: Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce vulpulate purus at est congue placerat"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Формат: PDF" HorizontalOptions="StartAndExpand"/>
+                    <Button Text="Файл" HorizontalOptions="End"/>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label Text="Предмет" FontSize="25"/>
+                <Label Text="Тип: методичка" FontSize="25"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="Beige">
+                <Label FontSize="25" Text="Описание: Lorem ipsum dolor sit amet, consecteur adipiscing elit. Fusce vulpulate purus at est congue placerat"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Формат: PDF" HorizontalOptions="StartAndExpand"/>
+                    <Button Text="Файл" HorizontalOptions="End"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage>
+</TabbedPage>

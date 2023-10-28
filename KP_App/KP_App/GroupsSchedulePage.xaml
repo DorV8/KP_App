@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KP_App.GroupsSchedulePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="LogoImage"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <StackLayout>
+                <Picker Title="Выберите группу: "/>
+                <Label Text="Здесь будет расписание группы"/>
+            </StackLayout>
+            <Button Text="Просмотр личного расписания" Clicked="ButtonTeacherPage_Clicked"/>
+            <Button Text="Просмотр учебных материалов" Clicked="ButtonMaterials_Clicked"/>
+            <Button Text="Просмотр домашних заданий" Clicked="ButtonHomework_Clicked"/>
+            <Button Text="Отправить уведомление"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

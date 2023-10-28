@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KP_App.TeacherPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="LogoImage"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <Image x:Name="Rasp"/>
+            <Button Text="Просмотр расписания групп" HorizontalOptions="CenterAndExpand" Clicked="ButtonGroupSchedule_Clicked"/>
+            <Button Text="Просмотр учебных материалов" HorizontalOptions="CenterAndExpand" Clicked="ButtonMaterials_Clicked"/>
+            <Button Text="Просмотр домашних заданий" HorizontalOptions="CenterAndExpand" Clicked="ButtonHomework_Clicked"/>
+            <Button Text="Отправить уведомление" HorizontalOptions="CenterAndExpand" Clicked="ButtonNotification_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
