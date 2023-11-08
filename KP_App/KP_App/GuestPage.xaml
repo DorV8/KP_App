@@ -4,15 +4,59 @@
              x:Class="KP_App.GuestPage">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout Orientation="Horizontal">
-                <Image Source=""/>
+            <StackLayout Orientation="Horizontal" Spacing="15">
+                <Image x:Name="LogoImage"/>
                 <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Picker x:Name="PickGroups" FontSize="25" IsVisible="true" FontFamily="Times New Roman" Title="Выберите группу" HorizontalOptions="StartAndExpand"/>
-                <Button Text="Найти" HorizontalOptions="End"/>
+                <Picker x:Name="PickGroups" FontSize="25" IsVisible="true" FontFamily="Times New Roman" Title="Выберите группу"/>
             </StackLayout>
-            <Label Text="Здесь будет расписание"/>
+            <TableView Intent="Data">
+                <TableRoot>
+                    <TableSection TextColor="Black" Title="Понедельник">
+                        <TextCell Text="1-я пара"  Detail="5 каб."/>
+                        <TextCell Text="2-я пара"  Detail="8 каб."/>
+                        <TextCell Text="3-я пара"  Detail="3 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Вторник">
+                        <TextCell Text="1-я пара"  Detail="4 каб."/>
+                        <TextCell Text="2-я пара"  Detail="10 каб."/>
+                        <TextCell Text="3-я пара"  Detail="8 каб."/>
+                        <TextCell Text="4-я пара" Detail="12 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Среда">
+                        <TextCell Text="1-я пара"  Detail="8 каб."/>
+                        <TextCell Text="2-я пара"  Detail="3 каб."/>
+                        <TextCell Text="3-я пара"  Detail="12 каб."/>
+                        <TextCell Text="4-я пара" Detail="15 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Четверг">
+                        <TextCell Text="1-я пара"  Detail="23 каб."/>
+                        <TextCell Text="2-я пара"  Detail="10 каб."/>
+                        <TextCell Text="3-я пара"  Detail="15 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Пятница">
+                        <TextCell Text="1-я пара"  Detail="5 каб."/>
+                        <TextCell Text="2-я пара"  Detail="7 каб."/>
+                        <TextCell Text="3-я пара"  Detail="3 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <!--<ListView x:Name="ScheduleList" Margin="80">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout>
+                                <Label Text="" FontSize="40" HorizontalOptions="StartAndExpand"/>
+                                <Label Text="" FontSize="40"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

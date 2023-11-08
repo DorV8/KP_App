@@ -39,6 +39,40 @@
                 <Image x:Name="Logo2"/>
                 <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
+            <TableView Intent="Data">
+                <TableRoot>
+                    <TableSection TextColor="Black" Title="Понедельник">
+                        <TextCell Text="1-я пара"  Detail="5 каб."/>
+                        <TextCell Text="2-я пара"  Detail="8 каб."/>
+                        <TextCell Text="3-я пара"  Detail="3 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Вторник">
+                        <TextCell Text="1-я пара"  Detail="4 каб."/>
+                        <TextCell Text="2-я пара"  Detail="10 каб."/>
+                        <TextCell Text="3-я пара"  Detail="8 каб."/>
+                        <TextCell Text="4-я пара" Detail="12 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Среда">
+                        <TextCell Text="1-я пара"  Detail="8 каб."/>
+                        <TextCell Text="2-я пара"  Detail="3 каб."/>
+                        <TextCell Text="3-я пара"  Detail="12 каб."/>
+                        <TextCell Text="4-я пара" Detail="15 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Четверг">
+                        <TextCell Text="1-я пара"  Detail="23 каб."/>
+                        <TextCell Text="2-я пара"  Detail="10 каб."/>
+                        <TextCell Text="3-я пара"  Detail="15 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                    <TableSection TextColor="Black" Title="Пятница">
+                        <TextCell Text="1-я пара"  Detail="5 каб."/>
+                        <TextCell Text="2-я пара"  Detail="7 каб."/>
+                        <TextCell Text="3-я пара"  Detail="3 каб."/>
+                        <TextCell Text="4-я пара" Detail="10 каб."/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
         </StackLayout>
     </ContentPage>
     <ContentPage Title="Учебные материалы" >

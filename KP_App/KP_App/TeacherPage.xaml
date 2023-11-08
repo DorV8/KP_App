@@ -12,7 +12,6 @@
             <Button Text="Просмотр расписания групп" HorizontalOptions="CenterAndExpand" Clicked="ButtonGroupSchedule_Clicked"/>
             <Button Text="Просмотр учебных материалов" HorizontalOptions="CenterAndExpand" Clicked="ButtonMaterials_Clicked"/>
             <Button Text="Просмотр домашних заданий" HorizontalOptions="CenterAndExpand" Clicked="ButtonHomework_Clicked"/>
-            <Button Text="Отправить уведомление" HorizontalOptions="CenterAndExpand" Clicked="ButtonNotification_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

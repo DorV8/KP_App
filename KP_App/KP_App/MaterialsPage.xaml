@@ -9,6 +9,10 @@
                 <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <Label Text="Здесь будут материалы"/>
+            <Button Text="Добавить материал" Clicked="AddMaterialButton_Clicked"/>
+            <Button Text="Просмотреть личное расписание" Clicked="TeacherPageButton_Clicked"/>
+            <Button Text="Просмотреть расписание групп" Clicked="GroupScheduleButton_Clicked"/>
+            <Button Text="Просмотреть домашние задания" Clicked="HomeworkPageButton_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

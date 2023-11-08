@@ -6,10 +6,12 @@
         <StackLayout>
             <StackLayout Orientation="Horizontal">
                 <Image x:Name="LogoImage"/>
-                <Label Text="Названиt приложения" HorizontalOptions="CenterAndExpand"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
             <Label Text="Здесь будут появляться все добавленные ранее задания"/>
             <Button Text="Добавить домашнее задание" Clicked="ButtonAddHomework_Clicked"/>
+            <Button Text="Просмотреть личное расписание" Clicked="TeacherPageButton_Clicked"/>
+            <Button Text="Просмотреть расписание групп" Clicked="GroupScheduleButton_Clicked"/>
             <Button Text="Просмотр учебных материалов" Clicked="ButtonMaterials_Clicked"/>
         </StackLayout>
     </ContentPage.Content>

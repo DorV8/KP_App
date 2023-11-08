@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="KP_App.AddMaterialPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="LogoImage"/>
+                <Label Text="Название приложения" HorizontalOptions="CenterAndExpand"/>
+            </StackLayout>
+            <Label Text="Здесь будет интерфейс добавления материалов"/>
+            <Button Text="Добавить"/>
+            <Button Text="Назад" Clicked="BackButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
